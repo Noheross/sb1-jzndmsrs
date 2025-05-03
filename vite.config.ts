@@ -7,4 +7,8 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+    build: {
+    target: 'esnext', // 确保使用 esm
+    minify: false, // 可选，根据需要决定是否最小化
+  }
 });
