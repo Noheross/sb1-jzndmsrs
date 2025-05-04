@@ -8,7 +8,11 @@
   "production": {
     "name": "sb1",
     "route": "sneakers2buy.com/*",
-    "zone_id": "9d1519fd2ae0b51852bb88bcd76981db"
+    "zone_id": "9d1519fd2ae0b51852bb88bcd76981db",
+      "vars": {
+        "VITE_SUPABASE_URL": "https://tzyltxobabytqwotgogx.supabase.co",
+        "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR6eWx0eG9iYWJ5dHF3b3Rnb2d4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU3NzQ4NDAsImV4cCI6MjA2MTM1MDg0MH0.uT_1NsAPD5is1dNW7TJg97vKYWsTJLNTNhPqk5dbBAE"
+      },
   }
 },
 
