@@ -1,25 +1,24 @@
 {
-     "name": "sb1", // Worker 的名称
-     "type": "javascript", // 或者 "webpack"、"rust" 等，取决于你的项目类型
-     "account_id": "38cca4a936033c10ed5d2e402c26a7de", // 你的 Cloudflare 账号 ID
-     "workers_dev": true, // 是否启用 Workers Dev 环境
-     "compatibility_flags": [], // 兼容标志，可以用于特定功能的启用
-"env": {
-  "production": {
-    "name": "sb1",
-    "route": "sneakers2buy.com/*",
-    "zone_id": "9d1519fd2ae0b51852bb88bcd76981db",
+  "name": "sb1",
+  "type": "javascript",
+  "account_id": "38cca4a936033c10ed5d2e402c26a7de",
+  "workers_dev": true,
+  "compatibility_flags": [],
+  "env": {
+    "production": {
+      "name": "sb1",
+      "route": "sneakers2buy.com/*",
+      "zone_id": "9d1519fd2ae0b51852bb88bcd76981db",
       "vars": {
         "VITE_SUPABASE_URL": "https://tzyltxobabytqwotgogx.supabase.co",
-        "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR6eWx0eG9iYWJ5dHF3b3Rnb2d4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU3NzQ4NDAsImV4cCI6MjA2MTM1MDg0MH0.uT_1NsAPD5is1dNW7TJg97vKYWsTJLNTNhPqk5dbBAE"
-      },
-  }
-},
-
-     "build": {
-       "command": "npm run build", // 构建命令
-       "directory": "./dist" // 构建后的目录路径
-     },
-"main": "src/main.tsx",
-     "compatibility_date": "2025-05-03"
-   }
+        "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR6eWx0eG9iYWJ5dHF3b3Rnb2d4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU3NzQ4NDAsImV4cCI6MjA2MTM1MDg0MH0.[...]"
+      }
+    }
+  },
+  "build": {
+    "command": "npm run build",
+    "directory": "./dist"
+  },
+  "main": "src/main.tsx",
+  "compatibility_date": "2025-05-03"
+}
